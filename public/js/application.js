@@ -253,15 +253,7 @@ function action() {
      validaction.style.display="none";
      tableau.style.display="none";
      yesorno.style.display="none";
-
-     if(showcount.textContent < 0){
-        stop.style.display="flex";
-    }
-    else{
-       stop.style.display ="none";
-       }
-       
-     setTimeout(function(){
+     let timeOut = setTimeout(function(){
          showcount.textContent--;
          tableau.style.display = "";
          validaction.style.display="";
@@ -270,6 +262,17 @@ function action() {
          yesorno.style.display="flex";
      }, aleatoire);
 
+     if(showcount.textContent < 0){
+        stop.style.display="none";
+    }
+    else if(showcount.textContent == 0) {
+       clearTimeout(timeOut);
+       stop.style.display ="flex";
+       validaction.style.display="none";
+       yesorno.style.display="none";
+       loader.style.visibility = "";
+       loader.style.opacity ="";
+       }
 
     }
    }
