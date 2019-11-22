@@ -1,0 +1,67 @@
+.connect-page{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.connect-login{
+    display: block;
+    margin:auto;
+    flex-direction: column;
+    width:50%;
+}
+
+.registration{
+    color: black;
+}
+.card-inscription{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.hr-connect{
+    width:1px; 
+    height:708px;
+    background-color: black;
+}
+
+////////////responsive//////////
+
+@media screen and (max-width: 834px){
+    
+//////////////button////////////////
+    .btn-warning{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top:20px;
+    }
+    .connect-login{
+        width: 80%;
+        margin:auto;
+    }
+
+    .card-inscription{
+        width: 100%;
+    }
+    .form-registration{
+        margin: auto;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .connect-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hr-connect{
+        width: 250px;
+        height: 1px;
+    }
+
+    .registr-mobile{
+        margin-bottom: 40px;
+    }
+}

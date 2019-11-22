@@ -1,0 +1,234 @@
+.NegoArt:hover{
+text-decoration: none;
+}
+
+// body{
+//     background-image: url("img/negobodygreek.jpg");
+//     background-size: cover;
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     display: flex;
+//     flex-direction: column;
+
+// }
+
+.content{
+    background-color: #a7832a99;
+    padding: 15px;
+} 
+
+.title{
+    color:white;
+    text-align: center;
+    font-size: 68px;
+    margin: auto;
+    font-family: 'Cinzel', serif;
+}
+
+///navbar main//
+.nav-verytop{
+    background-color: #2c2c2c !important;
+}
+#nav-me{
+    background-color: #2c2c2c!important;
+}
+#nav-one{
+    background-color: #2c2c2c!important;
+    float: right;
+    //margin-top: -71px;
+}
+
+/// All navs ///
+
+.navAll{
+    color: white!important;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.navAll:hover{
+    text-decoration: none;
+    background-color: red;
+    background-size: auto;
+}
+
+.form-inline{
+    position: relative;
+    left: -25px;
+}
+
+///menu///
+
+.dropdown-menu{
+    left: 12px;
+    text-align: center;
+    background: rgba(1, 1, 8, 0.82);
+}
+
+.dropdown-item{
+    background: rgba(1, 1, 8, 0);
+    color: white;
+}
+
+.connect-nav{
+    color: chartreuse!important;
+    border: 1px solid chartreuse;
+    border-radius: 10px;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.connect-nav:hover{
+    background-color: chartreuse;
+    color: black!important;
+}
+
+//////search/////
+
+.btn-search{
+    position: absolute;
+    top: -8px;
+    right: 0px;
+}
+
+.card-regi-picture{
+    width: 18rem;
+}
+
+///responsive welcome///
+
+@media screen and (max-width: 500px){
+    .input-group-append{
+        height: 54px;
+    margin-top: -8px;
+    }
+    .input-group{
+        margin-right: -9px;
+        margin-bottom: -8px;
+    }
+}
+
+@media screen and (min-width: 768px){
+.search-field{
+    display: inline-flex;
+    justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 834px){
+    .search-field{
+        width: 80vw;
+    }
+    .connect-nav{display: none;}
+    
+}
+
+@media screen and (min-width: 1440px){
+    .search-field{
+        margin-right: 135px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+.navAll{
+    font-size: 19px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+     .img-connexion{
+        display: none;
+     }
+
+     .card-regi-picture{
+        width: 26rem;
+    }
+     
+
+}
+
+////menu burger///
+
+.navbar-toggler{
+    margin-left: 5px;
+}
+
+///titles///
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 23px;
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+    padding: 10px;
+    //border-bottom: 1px solid gray;
+    text-decoration: underline;
+
+}
+
+h4{
+    color: white;
+    border-bottom: 1px solid yellowgreen;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: bold;
+}
+
+////////////corps//////////////////
+
+.second-body{
+    background-color:#fffffff0;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    color: black;
+    font-size: 18px;
+    font-family: 'Asap', sans-serif;
+}
+
+////////////footer/////////////////
+
+footer{
+    background-color: #2c2c2c;
+    padding: 10px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.infos-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-web{
+    color: #ffffffb3;
+    margin-left: 5px;
+}
+
+.footer-web:hover{
+    text-decoration: none;
+    color:red;
+}
+
+

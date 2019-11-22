@@ -1,0 +1,69 @@
+//Color variables
+$primary-color: #ffee51;
+$secondary-color: #4abfc8;
+$tertiary-color: #08865f;
+$quaternary-color: #09163a;
+$transtertiary-color: #08865ed2;
+$transquaternary-color: #09163ad2;
+$light-color: white;
+$neutral-color: #cac9c9;
+$important-color: #a7072a;
+
+
+//Color variables NegoArt 
+$artprimary-color: #0a0033;
+$artsecondary-color: #271961;
+$artneutral-color: #cac9c9;
+$artimportant-color: #a7072a;
+
+//Color variables NegoCars
+$carsprimary-color: black;
+$carsecondary-color: white;
+$carstertiary-color: #575757;
+$carsneutral-color: #cac9c9;
+$carsimportant-color: #a7072a;
+
+//Color variables NegoDevis
+$devisprimary-color: #ffee51;
+$devissecondary-color: #4abfc8;
+$devistertiary-color: #08865f;
+$devisneutral-color: #cac9c9;
+$devisimportant-color: #a7072a;
+
+
+//Font variables
+$font-giant: 3.5em;
+$font-big: 3em;
+$font-medium: 2.5em;
+$font-small: 1em;
+$lineheight-big: 2.5em;
+$lineheight-medium:2em;
+$lineheight-small:1.5em;
+$primary-font: 'Nunito';
+$secondary-font: 'Merriweather Sans';
+
+
+//Functions
+@mixin titleDefinition
+{
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    font-family: $primary-font;
+    color: $tertiary-color;
+    font-size: $font-medium;
+    line-height: $lineheight-small;
+    border-left: double 15px $neutral-color;
+    background: rgba(255, 255, 255, 0.548);
+    padding: 20px;
+    padding-left: 50px;
+
+}
+
+@mixin backgroundWaves
+{
+    background-image: url(../img/pictures/waves3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

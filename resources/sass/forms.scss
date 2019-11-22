@@ -1,0 +1,23 @@
+.myform{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-registration{
+    display: block;
+    margin-left: 35%;
+    width: 45%;
+}
+
+.btnspecial{
+    background: goldenrod;
+}
+
+.rules-checked:hover{
+    text-decoration: none;
+}
+
+//////////js////////
+#SIRET{
+    display: none;
+}

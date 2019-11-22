@@ -1,0 +1,1 @@
+<h2>Connexion en tant qu'artiste</h2>

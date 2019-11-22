@@ -1,0 +1,135 @@
+@import'mixin';
+
+// HEADER'S LAYOUT APPEARANCE
+.header-contener
+{
+    background-image: url(../img/pictures/waves2.jpg);
+    padding-left: 15px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-img
+{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.btn-group
+{
+    width: 320px;
+    margin: auto;
+}
+
+.btn-login, .btn-register
+{
+    border-radius: 50px;
+    border: none;
+    color: $neutral-color;
+    font-weight: bold;
+    background-color: $artimportant-color;
+    font-family: $primary-font;
+}
+
+.btn-login
+{
+    border-right: 1px solid $neutral-color;
+}
+
+.btn-register
+{
+    border-left: 1px solid $neutral-color;
+}
+
+.btn-login:hover, .btn-register:hover
+{
+    background-color: $neutral-color;
+    border-color: $neutral-color;
+}
+
+
+// NAVIGATION'S DEFINITION
+//Navbar top-fixation
+.main-nav
+{
+    position: sticky;
+    top:0;
+    z-index:1;
+}
+
+//Navbar appearance
+.main-nav
+{
+    font-family: $primary-font;
+    background: linear-gradient($artimportant-color, $quaternary-color 100%);
+}
+
+
+//Navigation's elements appearance
+.nav-item
+{
+    color: $neutral-color;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.nav-item:hover
+{
+    background: $quaternary-color;
+    border-top-left-radius : 3px;
+    border-top-right-radius : 3px;
+}
+
+.dropdown-menu
+{
+    margin: auto;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: rgba(1,0,36,0.9);
+    width: 115%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown-item
+{
+    color: white;
+    padding: 5%;
+    font-family: $secondary-font;
+}
+
+
+
+
+// FOOTER'S DEFINITION
+.main-footer
+{
+    padding: 3%;
+    font-family: $primary-font;
+    background: linear-gradient($artimportant-color 0%, $quaternary-color 100%);
+    color: $light-color;
+}
+
+.legal-declaration-link
+{
+    color: $neutral-color;
+    text-decoration: none;
+}
+
+.legal-declaration-link:hover
+{
+    color: $light-color;
+    font-weight: bold;
+}
+
+.footer-logo
+{
+    width:100px;
+    height: 100px;
+    opacity: 0.8;
+    filter: grayscale(100%);
+}
